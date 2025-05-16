@@ -5,7 +5,7 @@ let times = document.querySelectorAll(".time");
 let periods = document.querySelectorAll(".period");
 let last_times = document.querySelectorAll(".last-time");
 
-fetch("/data.json")
+fetch("https://KKfr007.github.io/data.json")
 .then(response => response.json())
 .then(data_stock => {
 
