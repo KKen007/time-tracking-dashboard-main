@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <main class="wrapper">
+
+    <section class="profile">
+      <div class="profile__top">
+        <img class="avatar" src="images/image-jeremy.png" alt="Jeremy's image">
+        <h1><span class="report-for">Report for</span><br>Jeremy Robson</h1>
+      </div>
+      <ul class="profile__option-list">
+        <li><button class="button daily-button">Daily</button></li>
+        <li><button class="button weekly-button">Weekly</button></li>
+        <li><button class="button monthly-button">Monthly</button></li>
+      </ul>
+    </section>
+
+    <section class="stats">
+      <section class="stat work">
+        <div class="stat__content">
+          <h2>Work<span class="dots">•••</span></h2>
+          <p><span class="time">32hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">36hrs</span></div></p>
+        </div>
+      </section>
+      <section class="stat play">
+        <div class="stat__content">
+          <h2>Play<span class="dots">•••</span></h2>
+          <p><span class="time">10hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">8hrs</span></div></p>
+        </div>
+      </section>
+      <section class="stat study">
+        <div class="stat__content">
+          <h2>Study<span class="dots">•••</span></h2>
+          <p><span class="time">4hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">7hrs</span></div></p>
+        </div>
+      </section>
+      <section class="stat exercise">
+        <div class="stat__content">
+          <h2>Exercise<span class="dots">•••</span></h2>
+          <p><span class="time">4hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">5hrs</span></div></p>
+        </div>
+      </section>
+      <section class="stat social">
+        <div class="stat__content">
+          <h2>Social<span class="dots">•••</span></h2>
+          <p><span class="time">5hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">10hrs</span></div></p>
+        </div>
+      </section>
+      <section class="stat self-care">
+        <div class="stat__content">
+          <h2>Self Care<span class="dots">•••</span></h2>
+          <p><span class="time">10hrs</span><div class="last">Last <span class="period">Week</span> - <span class="last-time">2hrs</span></div></p>
+        </div>
+      </section>
+    </section>
+
+  </main>
+</body>
+<script type="module" src="main.js"></script>
+</html>
